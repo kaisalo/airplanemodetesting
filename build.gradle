@@ -35,4 +35,10 @@ repositories {
 }
 heroku{
 	appName = 'sushi'
+	includes = ["README.md"]
+	includes = ["build/libs/Airplane_Mode.jar"]
+	includeBuildDir = false
+	processTypes(
+		web: 'java -jar build/libs/Airplane_Mode.jar'
+	)
 }
