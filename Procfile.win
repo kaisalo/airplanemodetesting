@@ -1,1 +1,1 @@
-web: java -jar build/server/jetty-runner.jar --port $PORT build/libs/Airplane_Mode.war
+web: java -jar build/server/jetty-runner.jar build/libs/Airplane_Mode.war
