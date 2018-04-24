@@ -2,7 +2,8 @@ plugins {
     id 'java'
     id 'application'
 	id 'war'
-	id 'org.akhikhl.gretty' version '2.0.0'
+	//id 'org.akhikhl.gretty' version '2.0.0'
+	 id "com.heroku.sdk.heroku-gradle" version "1.0.1"
 }
 //Include the jetty runner into the build/server folder
 task copyToLib(type: Copy) {
